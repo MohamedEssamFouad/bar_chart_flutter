@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 
 import 'ChartsData.dart';
+import 'Model/BarData.dart';
 import 'Presention/Home.dart';
 
 void main() {
@@ -25,9 +26,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class BarData {
-  final String label;
-  final double value;
 
-  BarData({required this.label, required this.value}); // Named parameters
-}

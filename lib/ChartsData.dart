@@ -2,6 +2,8 @@ import 'package:bar_chart_flutter/main.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 
+import 'Model/BarData.dart';
+
 class ChartsWidget extends StatelessWidget {
   final List<BarData> data;
   final double animation;
